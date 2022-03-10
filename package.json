@@ -1,0 +1,33 @@
+{
+  "name": "sandbox",
+  "version": "0.1.0",
+  "description": "BoosteMaBoite SandBox WordPress Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bootstrap": "wpackio-scripts bootstrap",
+    "build": "wpackio-scripts build",
+    "start": "wpackio-scripts start",
+    "archive": "wpackio-scripts pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boostemaboite/SandBox.git"
+  },
+  "author": "BoosteMaBoite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boostemaboite/SandBox/issues"
+  },
+  "homepage": "https://github.com/boostemaboite/SandBox#readme",
+  "devDependencies": {
+    "@wpackio/scripts": "^6.4.0",
+    "fork-ts-checker-webpack-plugin": "^7.2.1",
+    "postcss": "^8.4.8",
+    "sass": "^1.49.9",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@wpackio/entrypoint": "^6.4.0"
+  }
+}
